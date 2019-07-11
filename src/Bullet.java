@@ -30,4 +30,8 @@ public class Bullet {
     public boolean destroy() {
         return y < 0;
     }
+
+//    public boolean collideWith(Enemy enemy) {
+//
+//    }
 }

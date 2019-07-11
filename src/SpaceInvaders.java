@@ -9,12 +9,18 @@ public class SpaceInvaders extends JPanel implements Runnable, KeyListener {
     private Spaceship spaceship;
     private int direction;
     private ArrayList<Bullet> bullets;
+    private ArrayList<Enemy> enemies;
 
     // Constructor - Called when doing New SpaceInvaders()
     public SpaceInvaders() {
 
         spaceship = new Spaceship();
         bullets = new ArrayList<Bullet>();
+        enemies = new ArrayList<Enemy>();
+
+        for(int i = 0; i < 60; i++) {
+            enemies.add(new Enemy( 50 + i % 20 * 50, 50 + i/20 * 50, 1));
+        }
 
         Thread gameThread = new Thread(this);
         gameThread.start();
@@ -36,6 +42,10 @@ public class SpaceInvaders extends JPanel implements Runnable, KeyListener {
     private void update() {
         spaceship.movement(direction);
 
+        for(int i = 0; i < enemies.size(); i++) {
+            enemies.get(i).updateEnemy();
+        }
+
         for (int i = 0; i < bullets.size(); i++) {
             bullets.get(i).updateBullet();
 
@@ -45,6 +55,27 @@ public class SpaceInvaders extends JPanel implements Runnable, KeyListener {
                 i--;
             }
 
+            for(int j = 0; j < enemies.size(); j++) {
+//                if (bullets.get(i).colideWith(enemies.get(j))) {
+//                    enemies.remove(j);
+//                    j--;
+//
+//                    bullets.remove(i);
+//                }
+            }
+
+        }
+
+        for(int i = 0; i < enemies.size(); i++) {
+            // Checking if enemy is at the left border of the or if it is at the right border.
+            if(enemies.get(i).getX() <= 0 || enemies.get(i).getX() > 1366 - 50) {
+
+                // Change the direction of ALL enemies
+                for(int j = 0; j < enemies.size(); j++) {
+                    enemies.get(j).changeDirection();
+                }
+                break; // Need to break to change direction just once
+            }
         }
 
     }
@@ -64,8 +95,12 @@ public class SpaceInvaders extends JPanel implements Runnable, KeyListener {
         );
 
 
-
+        // Draw spaceship
         spaceship.drawSpaceship(g);
+        // Draw enemies
+        for(int i = 0; i < enemies.size(); i++) {
+            enemies.get(i).drawEnemy(g);
+        }
 
         for (int i = 0; i < bullets.size(); i++) {
             bullets.get(i).drawBullet(g);

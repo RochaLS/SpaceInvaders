@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         JFrame window = new JFrame("Space Invaders");
-        window.setSize(1336,768);
+        window.setSize(1366,768);
         window.setLayout(null );
         window.setLocationRelativeTo(null);
         window.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
