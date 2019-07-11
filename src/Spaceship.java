@@ -10,7 +10,7 @@ public class Spaceship {
 
     private int x;
     private int speed;
-    private int time;
+    private int reloading;
     private boolean canShoot;
 
     public Spaceship() {
@@ -25,7 +25,7 @@ public class Spaceship {
         x = 683;
         speed = 10;
         canShoot = true;
-        time = 0;
+        reloading = 0;
 
     }
 
@@ -37,6 +37,7 @@ public class Spaceship {
     // Spaceship returns a bullet on it's position
     public Bullet shoot() {
         canShoot = false;
+        reloading = 0;
                                 // originX + n is the middle of the ship
         Bullet newBullet = new Bullet(x + 49, 600);
         return newBullet;
@@ -51,12 +52,12 @@ public class Spaceship {
             x -= speed;
         }
 
-        if (time >= 10) {
+        if (reloading >= 10) {
             canShoot = true;
-            time = 0;
+            reloading = 0;
         }
 
-        time++;
+        reloading++;
 
 
     }

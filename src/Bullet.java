@@ -25,4 +25,9 @@ public class Bullet {
     public void updateBullet() {
         y -= speed;
     }
+
+    // Check if bullet Y position is < 0 if it is the func returns true
+    public boolean destroy() {
+        return y < 0;
+    }
 }

@@ -21,24 +21,6 @@ public class SpaceInvaders extends JPanel implements Runnable, KeyListener {
 
     }
 
-//    boolean allowedToUpdate()
-//    {
-//        // do logic to check if allowed to yupsatre
-//        // save current time
-//        // have variable nextUpdate
-//
-//        // if (nextUpdate <= currentTime)
-//        {
-//            // set next update to time plus update rate
-//            return true;
-//
-//        }
-//        else
-//
-//            return false;
-//        return true;
-//    }
-
     @Override
     public void run() {
         int frameCount = 0;
@@ -56,6 +38,13 @@ public class SpaceInvaders extends JPanel implements Runnable, KeyListener {
 
         for (int i = 0; i < bullets.size(); i++) {
             bullets.get(i).updateBullet();
+
+            // Remove bullets from the ArrayList
+            if (bullets.get(i).destroy()) {
+                bullets.remove(i);
+                i--;
+            }
+
         }
 
     }
