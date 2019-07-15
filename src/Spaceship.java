@@ -9,9 +9,12 @@ public class Spaceship {
     private BufferedImage drawing;
 
     private int x;
+    private int y;
     private int speed;
     private int reloading;
     private boolean canShoot;
+    private int sizeX;
+    private int sizeY;
 
     public Spaceship() {
 
@@ -23,15 +26,17 @@ public class Spaceship {
         }
 
         x = 683;
+        y = 600;
         speed = 10;
         canShoot = true;
         reloading = 0;
-
+        sizeX = 100;
+        sizeY = 100;
     }
 
     public void drawSpaceship(Graphics2D g) {
                             //First two are posX and posY the other two are width and height
-        g.drawImage(drawing, x, 600,x + 100,600 + 100, 0, 0, drawing.getWidth(), drawing.getHeight(), null);
+        g.drawImage(drawing, x, y,x + sizeX, y + sizeY, 0, 0, drawing.getWidth(), drawing.getHeight(), null);
     }
 
     // Spaceship returns a bullet on it's position
@@ -65,4 +70,35 @@ public class Spaceship {
     public boolean canShoot() {
         return canShoot;
     }
+
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public void leftBorder() {
+        x = 0;
+    }
+
+    public void rightBorder() {
+        x = 1366 - 100;
+    }
+
+    public int getSize() {
+        return 100;
+    }
+
+    public int getSizeY() {
+        return sizeY;
+    }
+
+    public void hide() {
+        sizeX = 0;
+        sizeY = 0;
+    }
+
+
 }

@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b00328d2-31d9-450b-a17e-d23b44753c4c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Background.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpaceInvaders/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpaceInvaders/Bullet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpaceInvaders/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpaceInvaders/Enemy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpaceInvaders/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpaceInvaders/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SpaceInvaders/SpaceInvaders.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpaceInvaders/SpaceInvaders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpaceInvaders/Spaceship.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpaceInvaders/Spaceship.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bullet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enemy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SpaceInvaders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpaceInvaders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Spaceship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spaceship.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,17 +30,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="405">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SpaceInvaders.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1109">
+              <caret line="103" column="48" lean-forward="true" selection-start-line="103" selection-start-column="48" selection-end-line="103" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SpaceInvaders.java">
+        <entry file="file://$PROJECT_DIR$/src/Background.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+            <state relative-caret-position="391">
+              <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,27 +63,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Enemy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+            <state relative-caret-position="315">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1100#1101#0" expanded="true" />
-                <element signature="e#1122#1123#0" expanded="true" />
+                <element signature="e#1162#1163#0" expanded="true" />
+                <element signature="e#1187#1188#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Bullet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="35" selection-end-column="7" />
+            <state relative-caret-position="504">
+              <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
               <folding>
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#1032#1033#0" expanded="true" />
+                <element signature="e#1060#1061#0" expanded="true" />
+                <element signature="e#1089#1090#0" expanded="true" />
+                <element signature="e#1117#1118#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,12 +92,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Spaceship.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-171">
-              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="-3">
+              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1514#1515#0" expanded="true" />
-                <element signature="e#1545#1546#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,6 +121,11 @@
       <find>repaint</find>
       <find>run</find>
       <find>g</find>
+      <find>paintcom</find>
+      <find>collide</find>
+      <find>change</find>
+      <find>changedir</find>
+      <find>enemies.</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -113,15 +134,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Spaceship.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Background.java" />
+        <option value="$PROJECT_DIR$/src/Spaceship.java" />
         <option value="$PROJECT_DIR$/src/Enemy.java" />
-        <option value="$PROJECT_DIR$/src/SpaceInvaders.java" />
         <option value="$PROJECT_DIR$/src/Bullet.java" />
+        <option value="$PROJECT_DIR$/src/SpaceInvaders.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="740" />
     <option name="width" value="700" />
     <option name="height" value="900" />
@@ -134,7 +156,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,6 +172,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -205,10 +227,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="740" y="0" width="700" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.34005764" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18526466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -216,8 +238,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32992035" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32992035" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.32992035" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993174" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -252,59 +274,67 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/Lives/imagens/nave.png" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/images/nave.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Background.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="391">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Spaceship.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state relative-caret-position="-3">
+          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1514#1515#0" expanded="true" />
-            <element signature="e#1545#1546#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Enemy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        <state relative-caret-position="315">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SpaceInvaders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Bullet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="35" selection-end-column="7" />
+        <state relative-caret-position="504">
+          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
           <folding>
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SpaceInvaders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1109">
+          <caret line="103" column="48" lean-forward="true" selection-start-line="103" selection-start-column="48" selection-end-line="103" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
